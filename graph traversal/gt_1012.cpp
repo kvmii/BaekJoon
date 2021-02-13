@@ -9,8 +9,7 @@ int dp[50][50];
 int result;
 int visited[50][50];
 int X[] = { -1, 1, 0, 0 }, Y[] = { 0, 0, -1, 1 };
-int num = 0;
-vector<int> vec;
+// 썻다가 필요없어진 변수 생기면 바로 지우기
 
 void cab(int a, int b) {
 
